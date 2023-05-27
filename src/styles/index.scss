@@ -1,0 +1,397 @@
+$theme-colors: (
+    "primary": #FF9F1C,
+    "success": green,
+    "info": #fdc500,
+    "danger": rgb(171, 0, 0),
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: white;
+    // background: url(
+    //     '../images/101112.jpg'
+    // );
+    // background-repeat: no-repeat;
+    // background-size:  auto;
+}
+
+@media (min-width: 960px) {
+
+    .thead {
+        padding: 22px 10px;
+    };
+
+    .main-page-services-con {
+        height: 100vh;
+    }
+
+    ;
+
+    .main-page-doctors-con {
+        height: 100vh;
+    }
+
+    ;
+
+    .main-page-news-con {
+        height: 100vh;
+    };
+
+    .con-heading {
+        margin-top: 80px;
+        margin: 36px auto 12px auto;
+        color: #FF9F1C
+    };
+
+    .main-page-about-con {
+        height: 100vh;
+    }
+
+    ;
+
+    .main-page-contact-con {
+        height: 100vh;
+    }
+
+    ;
+}
+
+@media (max-width: 960px) {
+    .main-page-services-con {
+        height: auto;
+    }
+
+    ;
+
+    .main-page-doctors-con {
+        height: auto;
+    }
+
+    ;
+
+    .main-page-news-con {
+        height: auto;
+    };
+
+    .con-heading {
+        margin-top: 80px;
+        margin: 106px auto 12px auto;
+        color: #FF9F1C
+    };
+
+    .main-page-about-con {
+        height: auto;
+    }
+
+    ;
+
+    .main-page-contact-con {
+        height: auto;
+    }
+
+    ;
+}
+
+.main-page-img {
+    background-size: cover;
+
+}
+
+.main-page-btn {
+    font-weight: 600;
+    color: white;
+    font-size: larger;
+    padding: 8px 16px;
+}
+
+.main-page-services-con {
+    background-color: #2EC4B6;
+}
+
+.main-page-doctors-con {
+    background-color: #BEEEE9;
+}
+
+.main-page-news-con {
+    background-color: #FFFFFF;
+
+}
+
+
+
+.main-page-about-con {
+    background-color: #FFEFDA;
+}
+
+.main-page-contact-con {
+    background-color: white;
+}
+
+.main-page-service-card {
+    height: 300px;
+    margin-bottom: 24px;
+    background-color: white;
+    border: 1px solid #FF9F1C;
+
+    .icon {
+        color: #FF9F1C;
+    }
+
+    ;
+    border-radius: 6px;
+    box-shadow: 1px 1px 12px #CBF3F0;
+
+    h5 {
+        color: #FF9F1C;
+        font-weight: 600;
+        margin: 12px 24px
+    }
+
+    ;
+
+    p {
+        margin: 0 24px 18px 24px;
+        color: black;
+        font-size: large
+    }
+
+    ;
+    transition-duration: 0.4s;
+}
+
+.main-page-service-card:hover {
+    cursor: pointer;
+
+    .icon {
+        color: white;
+    }
+
+    ;
+    background-color: #FF9F1C;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 24px #CBF3F0;
+
+    h5 {
+        color: white;
+        font-weight: 600;
+        margin: 12px 24px
+    }
+
+    ;
+
+    p {
+        margin: 0 24px 18px 24px;
+        color: white;
+        font-size: large
+    }
+
+    ;
+}
+
+
+.main-page-doctor-card {
+    margin-bottom: 24px;
+    padding: 12px 12px;
+    background-color: transparent;
+    border-radius: 24px;
+    border: 1px solid #BEEEE9;
+    box-shadow: 1px 1px 12px #BEEEE9;
+
+    h6 {
+        color: #FF9F1C;
+        font-weight: 600;
+        margin: 12px 24px
+    }
+
+    ;
+
+    transition-duration: 0.4s;
+}
+
+.main-page-doctor-card:hover {
+    margin-bottom: 24px;
+    padding: 12px 12px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 1px 1px 8px white;
+    border-radius: 24px;
+
+    h6 {
+        color: #FF9F1C;
+        font-weight: 600;
+        margin: 12px 24px
+    }
+
+    ;
+    transition-duration: 0.4s;
+}
+
+
+.main-page-news-card {
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: transparent;
+    border-radius: 24px;
+    border: 1px solid #BEEEE9;
+    box-shadow: 1px 1px 12px #BEEEE9;
+
+    h6 {
+        color: #FF9F1C;
+        font-weight: 600;
+        margin: 12px 24px
+    }
+
+    ;
+    transition-duration: 0.4s;
+}
+
+
+.main-page-about-card {
+    margin-bottom: 24px;
+    padding: 26px;
+    background-color: white;
+    border-radius: 24px;
+    border: 1px solid #FF9F1C;
+    box-shadow: 1px 1px 12px #FFDFB4;
+
+    h6 {
+        color: #FF9F1C;
+        font-weight: 600;
+        margin: 12px 24px
+    }
+
+    ;
+    transition-duration: 0.4s;
+}
+
+.main-page-contact-card {
+    margin-bottom: 24px;
+    padding: 26px;
+    background-color: white;
+    border-radius: 24px;
+    border: 1px solid #FF9F1C;
+    box-shadow: 1px 4px 24px #FFCF8F;
+
+    h6 {
+        color: #FF9F1C;
+        font-weight: 600;
+        margin: 12px 24px
+    }
+
+    ;
+    transition-duration: 0.4s;
+}
+
+.main-page-switch-to-card {
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: transparent;
+    border-radius: 24px;
+    border: 1px solid #BEEEE9;
+    box-shadow: 1px 1px 12px #BEEEE9;
+
+    h4 {
+        color: #FF9F1C;
+        font-weight: 600;
+        margin: 12px 24px;
+        transition: 0.5s;
+    }
+
+    ;
+
+    p {
+        color: black;
+        transition: 0.5s;
+    }
+
+    ;
+
+    .icon {
+        color: #E89119;
+        transition: 0.5s;
+    }
+
+    transition-duration: 0.5s;
+}
+
+.main-page-switch-to-card:hover {
+    cursor: pointer;
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: #FF9F1C;
+    border-radius: 24px;
+    border: 1px solid #FFBF69;
+    box-shadow: 1px 1px 24px #FF9F1C;
+
+    h4 {
+        color: white;
+    }
+
+    ;
+
+    p {
+        color: white;
+    }
+
+    ;
+
+    .icon {
+        color: white
+    }
+}
+
+
+.main-page-reg-card {
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: #FFEFDA;
+    border-radius: 12px;
+    border: 1px solid #FF9F1C;
+    box-shadow: 1px 1px 36px rgb(187, 187, 187);
+
+    h4 {
+        color: #FF9F1C;
+        font-weight: 600;
+        margin: 12px 24px;
+        transition: 0.5s;
+    };
+
+    p {
+        color: black;
+        transition: 0.5s;
+    };
+
+    .icon {
+        color: #E89119;
+        transition: 0.5s;
+    }
+
+    transition-duration: 0.5s;
+}
+
+.form-control {
+    border: 1px solid #FF9F1C;
+    background: white;
+}
+
+.reg-page-submin-btn {
+    color: white;
+    font-size: medium;
+}
+
+.thead {
+    color: white;
+    font-weight: 500;
+    font-size: large;
+
+}
+
+.crd {
+    border: 1px solid #FF9F1C;
+    border-radius: 6px;
+    margin: 8px 0;
+    padding: 8px;
+    box-shadow: 2px 2p 10px #ffb751;
+}
